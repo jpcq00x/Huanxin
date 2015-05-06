@@ -18,6 +18,11 @@ public class AppUtil {
     }
 
     public static Date string2date(String string) {
+        String s = new String();
         return Calendar.getInstance().getTime();
+    }
+
+    public static Date string2() {
+        return null;
     }
 }
