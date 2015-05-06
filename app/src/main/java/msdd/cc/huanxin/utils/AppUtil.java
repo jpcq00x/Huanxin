@@ -2,6 +2,7 @@ package msdd.cc.huanxin.utils;
 
 import android.util.Log;
 
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -10,9 +11,13 @@ import java.util.Date;
  * @date 2015/5/6 10:04
  */
 public class AppUtil {
-    public static String date2string(Date date,String format){
+    public static String date2string(Date date, String format) {
 
-        Log.d("","");
-        return  null;
+        Log.d("", "");
+        return null;
+    }
+
+    public static Date string2date(String string) {
+        return Calendar.getInstance().getTime();
     }
 }
