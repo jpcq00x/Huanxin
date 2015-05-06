@@ -1,5 +1,7 @@
 package msdd.cc.huanxin.utils;
 
+import android.util.Log;
+
 import java.util.Date;
 
 /**
@@ -10,6 +12,7 @@ import java.util.Date;
 public class AppUtil {
     public static String date2string(Date date,String format){
 
+        Log.d("","");
         return  null;
     }
 }
